@@ -1,0 +1,29 @@
+[{
+  
+  "user": {
+    "$oid": "619ab457fec53fcff7c50528"
+  },
+  "checkInDate": {
+    "$date": "2021-11-22T00:00:00Z"
+  },
+  "checkOutDate": {
+    "$date": "2021-11-24T00:00:00Z"
+  },
+  "amountPaid": 108,
+  "daysOfStay": 3,
+  "paymentInfo": {
+    "id": "PAYSTACK_PAYMENT_ID",
+    "status": "PAYSTACK_PAYMENT_STATUS"
+  },
+  "paidAt": {
+    "$date": "2021-11-19T20:25:19.457Z"
+  },
+  "createdAt": {
+    "$date": "2021-11-19T20:25:19.462Z"
+  },
+  "__v": 0,
+  "roomId": "hm0f4ausk",
+  "room": {
+    "$oid": "619ab48ffec53fcff7c53a4d"
+  }
+}]

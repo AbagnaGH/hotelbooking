@@ -1,0 +1,74 @@
+[
+  {
+    "username": "wnkea9cfn",
+    "name": "Sasco",
+    "email": "sasco@gmail.com",
+    "password": "$2a$10$0Fb64UsE48sx/CsN.V2m2eMlAlPPrC2l6A4kOGqOrhogBo9fMskzi",
+    "avatar": {
+      "public_id": "bookit/avatars/a6f2bori6qpmd6bdfhvx",
+      "url": "http://res.cloudinary.com/codesmart/image/upload/v1637162457/bookit/avatars/a6f2bori6qpmd6bdfhvx.png"
+    },
+    "role": "user",
+    "createdAt": {
+      "$date": "2021-11-17T15:20:58.250Z"
+    },
+    "updatedAt": {
+      "$date": "2021-11-17T15:20:58.250Z"
+    },
+    "__v": 0
+  },
+  {
+    "username": "frk0q4rq-",
+    "name": "Frank",
+    "email": "frank@gmail.com",
+    "password": "$2a$10$kbAihH7LyjCCIqtkWR2Tf.3G8NOm1cSsVnEcq0vS3Vn2yEd3Zw7ZC",
+    "avatar": {
+      "public_id": "bookit/avatars/pmo4xuo71krtrulntzan",
+      "url": "http://res.cloudinary.com/codesmart/image/upload/v1637162542/bookit/avatars/pmo4xuo71krtrulntzan.png"
+    },
+    "role": "user",
+    "createdAt": {
+      "$date": "2021-11-17T15:22:23.163Z"
+    },
+    "updatedAt": {
+      "$date": "2021-11-17T15:22:23.163Z"
+    },
+    "__v": 0
+  },
+  {
+    "username": "fqjiarngv",
+    "name": "Abagna",
+    "email": "abagna@gmail.com",
+    "password": "$2a$10$X9q2Ws5fmFBPSJ0dT.aSNuoGCWwBQAwB3ByPz5cn38he1ZIjxa.22",
+    "avatar": {
+      "public_id": "bookit/avatars/vfohe4tqmuoxnehfqqiq",
+      "url": "https://res.cloudinary.com/codesmart/image/upload/v1637195528/bookit/avatars/vfohe4tqmuoxnehfqqiq.jpg"
+    },
+    "role": "user",
+    "createdAt": {
+      "$date": "2021-11-17T15:25:48.893Z"
+    },
+    "updatedAt": {
+      "$date": "2021-11-18T00:33:12.816Z"
+    },
+    "__v": 0
+  },
+  {
+    "username": "vm_bi7wt1",
+    "name": "Ama",
+    "email": "steeletimothy2000@gmail.com",
+    "password": "$2a$10$07VAM83qfeJTSzX6mZ3IM.n5aFCBMrbwHfPBBRLY7z8AcGbrZHn3y",
+    "avatar": {
+      "public_id": "bookit/avatars/qum6z1eldeozmanoqas7",
+      "url": "http://res.cloudinary.com/codesmart/image/upload/v1637195787/bookit/avatars/qum6z1eldeozmanoqas7.png"
+    },
+    "role": "user",
+    "createdAt": {
+      "$date": "2021-11-18T00:36:28.240Z"
+    },
+    "updatedAt": {
+      "$date": "2021-11-18T21:36:15.417Z"
+    },
+    "__v": 0
+  }
+]
