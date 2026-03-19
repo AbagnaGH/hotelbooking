@@ -9,9 +9,7 @@ const Footer = () => {
           <div className="container-fluid">
             <div className="col-3 p-0">
               <div className="navbar-brand">
-                <p className="lead  display-6">
-                  Copyright © 2021 Eusbett Hotel
-                </p>
+                <p className="lead  display-6">Copyright © 2021 Blue Plannet</p>
               </div>
             </div>
 

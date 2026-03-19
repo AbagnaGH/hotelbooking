@@ -129,7 +129,7 @@ const UpdateRoom = () => {
       {roomDetailsLoading ? (
         <Loader />
       ) : (
-        <div className="container container-fluid">
+        <div className="container-fluid">
           <div className="row wrapper">
             <div className="col-10 col-lg-8">
               <form
@@ -187,7 +187,7 @@ const UpdateRoom = () => {
                   <label htmlFor="category_field">Category</label>
                   <select
                     className="form-control"
-                    id="room_type_field"
+                    id="category_field"
                     value={category}
                     onChange={(e) => setCategory(e.target.value)}
                   >

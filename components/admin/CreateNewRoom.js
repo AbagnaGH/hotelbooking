@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
-
 import ButtonLoader from '../layout/ButtonLoader';
 import Image from 'next/image';
 import { useDispatch, useSelector } from 'react-redux';
 import { toast } from 'react-toastify';
-
 import { newRoom, clearErrors } from '../../redux/actions/roomActions';
 import { NEW_ROOM_RESET } from '../../redux/constants/roomConstants';
 
@@ -15,6 +13,7 @@ const NewRoom = () => {
   const [description, setDescription] = useState(
     'Find plenty of space for a family or a large group at this picturesque Wells home, the perfect spot for a relaxing getaway in charming, quintessential Maine style! Spend your days on the beautiful nearby beaches, and come home to a large backyard and orchard where your kids can play, as well as a patio with a gas grill for barbecues on summer afternoons.',
   );
+
   const [address, setAddress] = useState('Sunyani');
   const [category, setCategory] = useState('Kings');
   const [guestCapacity, setGuestCapacity] = useState(1);

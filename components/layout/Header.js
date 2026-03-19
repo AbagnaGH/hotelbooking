@@ -7,7 +7,7 @@ import { signOut } from 'next-auth/client';
 import { useRouter } from 'next/router';
 
 const Header = () => {
-  const router = useRouter()
+  const router = useRouter();
   const dispatch = useDispatch();
 
   const { user, loading } = useSelector((state) => state.loadedUser);
@@ -34,10 +34,10 @@ const Header = () => {
             <Link href="/">
               <a>
                 <Image
-                  src="https://res.cloudinary.com/codesmart/image/upload/v1643583006/bookit/brand/logo_oxkyf7.png"
+                  src="https://res.cloudinary.com/codesmart/image/upload/v1670759924/pos/vngp9fbwquxewczgvymq.png"
                   alt="logo"
                   height="60"
-                  width="150"
+                  width="60"
                 />
               </a>
             </Link>

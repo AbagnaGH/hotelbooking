@@ -187,6 +187,7 @@ const AllStatstics = () => {
             </div>
 
             {/* ************************************************************************** */}
+
             <div className="col-md-6 mt-5">
               <h2 className="btn btn-danger">Daily Customers</h2>
               {summary.roomstats.length === 0 ? (
@@ -208,6 +209,7 @@ const AllStatstics = () => {
                 />
               )}
             </div>
+
             {/* ****************************************************************** */}
             <div className="col-md-6 mt-5">
               <h2 className="btn btn-primary">Daily Bookings</h2>
