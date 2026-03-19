@@ -41,8 +41,6 @@ export const newBooking = (booking) => async (dispatch) => {
 
     const { data } = await axios.post(`/api/bookings`, booking, config);
 
-    console.log('RETURN FROM API', data);
-
     dispatch({
       type: NEW_BOOKING_SUCCESS,
       payload: data,

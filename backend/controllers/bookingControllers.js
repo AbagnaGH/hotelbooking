@@ -16,17 +16,7 @@ const moment = extendMoment(Moment);
 
 // Create new Booking   =>   /api/bookings
 export const newBooking = catchAsyncErrors(async (req, res, next) => {
-  const {
-    room,
-    checkInDate,
-    checkOutDate,
-    daysOfStay,
-    // amountPaid,
-    paymentInfo,
-  } = req.body;
-
-  //add verification of transaction here transaction
-  // verifyTransaction
+  const { room, checkInDate, checkOutDate, daysOfStay, paymentInfo } = req.body;
 
   try {
     const response = await axios.get(
@@ -49,14 +39,8 @@ export const newBooking = catchAsyncErrors(async (req, res, next) => {
         reference: response.data.data.reference,
         user: req.user._id,
       }).save();
-      // console.log(bookingdata);
       res.send(bookingdata);
     }
-
-    // console.log('Data', response.data);
-    // console.log('REF ID', response.data.data.reference);
-
-    // let ref = paymentInfo.reference;
   } catch (err) {
     console.log(err);
   }
@@ -239,6 +223,7 @@ export const getMonthlyPlan = catchAsyncErrors(async (req, res, next) => {
       },
     },
   ]);
+
   const dailyBookings = await Booking.aggregate([
     {
       $group: {
@@ -253,6 +238,7 @@ export const getMonthlyPlan = catchAsyncErrors(async (req, res, next) => {
     },
     { $sort: { _id: 1 } },
   ]);
+
   const dailyCustomers = await User.aggregate([
     {
       $match: { role: 'customer' },

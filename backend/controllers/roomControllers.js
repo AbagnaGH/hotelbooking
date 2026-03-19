@@ -117,7 +117,8 @@ export const deleteRoom = catchAsyncErrors(async (req, res, next) => {
   const room = await Room.findById(req.query.id);
 
   if (!room) {
-    return next(new ErrorHandler('Room not found with this ID', 404));  }
+    return next(new ErrorHandler('Room not found with this ID', 404));
+  }
 
   // Delete images associated with the room
   for (let i = 0; i < room.images.length; i++) {
